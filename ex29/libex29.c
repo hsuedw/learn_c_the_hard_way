@@ -3,11 +3,11 @@
 #include "dbg.h"
 
 
-int print_a_messag(const char *msg)
+int print_a_message(const char *msg)
 {
     printf("A STRING: %s\n", msg);
 
-    return 0
+    return 0;
 }
 
 

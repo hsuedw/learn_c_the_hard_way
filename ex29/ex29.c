@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     check(rc == 0, "Function %s return %d for data: %s", func_to_run,
             rc, data);
 
-    rc = dlcolse(lib);
+    rc = dlclose(lib);
     check(rc == 0, "Failed to colse %s", lib_file);
 
     return 0;
