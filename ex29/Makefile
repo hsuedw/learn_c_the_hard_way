@@ -32,7 +32,7 @@ build:
 # The Unit Tests
 .PHONY: tests
 tests:
-	$(CC) $(TEST_SRC) -ldl -o $(TESTS)
+	$(CC) $(TEST_SRC) -Isrc -ldl -o $(TESTS)
 	tests/runtests.sh
 
 # The Cleaner
