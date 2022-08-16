@@ -1,0 +1,7 @@
+export CROSS_COMPILE=x86_64-linux-gnu-
+export EXT=
+make CROSS_COMPILE=x86_64-linux-gnu-
+
+export CROSS_COMPILE=x86_64-w64-mingw32-
+export EXT=.exe
+make CROSS_COMPILE=x86_64-w64-mingw32- EXT=.exe
